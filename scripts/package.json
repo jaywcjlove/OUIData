@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node generate.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "oui-data": "1.1.408"
+  }
+}
