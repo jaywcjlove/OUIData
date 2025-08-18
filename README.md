@@ -58,18 +58,13 @@ dependencies: [
 ```swift
 import OUIData
 
-do {
-    let data = try OUIData.fetchData()
-    await MainActor.run {
-        self.ouiEntries = data
-        self.isLoading = false
-    }
-} catch {
-    await MainActor.run {
-        self.errorMessage = error.localizedDescription
-        self.isLoading = false
-    }
-}
+let data = try OUIData.fetchData()
+
+print("data:", data["101331"])
+// => Technicolor Delivery Technologies Belgium NV
+// => Prins Boudewijnlaan 47
+// => Edegem - Belgium B-2650
+// => Belgium
 ```
 
 ## Acknowledgments
