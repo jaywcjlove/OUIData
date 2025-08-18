@@ -75,4 +75,5 @@ Thanks to these projects:
 
 ## License
 
-Licensed under the MIT License.
+Original data/code © [silverwind](https://github.com/silverwind), distributed under BSD licence.  
+Your modifications © 2025, Kenny Wang, distributed under BSD licence.
